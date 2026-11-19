@@ -139,6 +139,15 @@ language = ""
 # (for one run: HALO_DUAL_WIELDING=<value>)
 dual_wielding = true
 
+# The language of every menu, HUD and Theater text: "en" English or "es" Spanish;
+# empty asks on the first start.
+# (for one run: HALO_TEXT_LANGUAGE=<value>)
+text_language = ""
+
+# Show dialogue subtitles from subtitles/<language>.txt beside the executable.
+# (for one run: HALO_SUBTITLES=<value>)
+subtitles = true
+
 [map]
 
 # Mirror the playable world and horizontal controls while keeping HUD text
@@ -442,6 +451,10 @@ voice_test_tone = false
 # separate gunner seat (a Warthog's turret) instead of driving.
 # (for one run: HALO_NETWORK_TEST_GUNNER=1 makes it true)
 network_test_gunner = false
+
+# Show the developer messages (script prints, save notices) during play; the console (~) always shows them.
+# (for one run: HALO_SHOW_TERMINAL=<value>)
+show_terminal = false
 
 [bots]
 
@@ -783,6 +796,14 @@ theater_record_hz = 10
 # Theater playback interpolation rate: 0 (off), 30, 60 or 120 frames per second.
 # (for one run: HALO_THEATER_INTERPOLATION_HZ=<value>)
 theater_interpolation_hz = 120
+
+# Show the aiming reticle while piloting a Pelican, Longsword or Kestrel.
+# (for one run: HALO_AIRCRAFT_CROSSHAIR=<value>)
+aircraft_crosshair = true
+
+# Keep the Theater camera above the ground and out of walls (H toggles it during playback).
+# (for one run: HALO_THEATER_CAMERA_GROUND=<value>)
+theater_camera_ground = true
 
 [firefight]
 
